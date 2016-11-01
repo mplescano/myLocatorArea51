@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Locator - POC03</string>
+    <string name="hintAddress">Address</string>
+    <string name="hintDescription">Description</string>
+    <string name="hintPosition">Position (Latitude, Longitude)</string>
+    <string name="lblDateCreation">Date time creation</string>
+    <string name="lblTitleNewRecord">Nuevo registro</string>
+    <string name="lblTitleEditRecord">Modificar el registro %1$d</string>
+    <string name="lblPosition">%1$+9.6f,%2$+9.6f</string>
+    <string name="mitRefresh">Refresh</string>
+    <string name="mitAddPointLocation">Add</string>
+    <string name="mitDeletePointLocation">Delete</string>
+    <string name="errorEmptyDateCreation">Date Creation is not expected to be empty</string>
+    <string name="errorEmptyPosition">Position is not expected to be empty</string>
+    <string name="errorSeparatedPositions">Postions are expected to be two, Latitude, Longitude</string>
+
+    <string name="google_api_key">AIzaSyBL3asWMzA6mPWeIGbfeBU5loJ5V7-sCK0</string>
+    <string name="lblSelectPosition">Seleccione con un tap</string>
+    <string name="btnCancel">Cancelar</string>
+    <string name="successSavedPosition">Posicion exitosamente grabado</string>
+</resources>

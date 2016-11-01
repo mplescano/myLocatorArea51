@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layout_main" type="layout">@layout/layout_twopane_main</item>
+    <string name="screen_size">large</string>
+</resources>

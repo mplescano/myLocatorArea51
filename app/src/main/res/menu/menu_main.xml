@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mitRefresh"
+        android:title="@string/mitRefresh"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/mitAddPointLocation"
+        android:title="@string/mitAddPointLocation"
+        android:icon="@drawable/ic_action_new_loc"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/mitDeletePointLocation"
+        android:title="@string/mitDeletePointLocation"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

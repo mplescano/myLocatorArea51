@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <TextView
+        android:id="@+id/txvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Modify record ID:"/>
+
+    <TextView
+        android:id="@+id/txvDateCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDateCreation"/>
+    <EditText
+        android:id="@+id/edtDateCreation"
+        android:enabled="false"
+        android:longClickable="false"
+        android:inputType="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintAddress"/>
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:lines="3"
+        android:hint="@string/hintDescription"
+        android:scrollbars="vertical"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtPosition"
+            android:enabled="false"
+            android:longClickable="false"
+            android:inputType="none"
+            android:layout_width="0dp"
+            android:layout_weight=".9"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintPosition"
+            />
+
+        <ImageButton
+            android:id="@+id/imbPosition"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_location"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imbSave"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_action_save"
+        />
+
+</LinearLayout>
